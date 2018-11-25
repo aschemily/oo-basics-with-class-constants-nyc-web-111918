@@ -7,7 +7,7 @@ BRANDS = []
     @brand = brand
     
     BRANDS << brand 
-    
+    BRANDS == BRANDS.uniq
   end
   
 end #end of shoe class 
