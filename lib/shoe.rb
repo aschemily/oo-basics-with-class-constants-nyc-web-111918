@@ -17,6 +17,6 @@ BRANDS = []
   end
 
 def brand
-  BRANDS.uniq {|brand| brand.user_id}
+  BRANDS.all.distinct(:user_id)
 end 
 end #end of class 
