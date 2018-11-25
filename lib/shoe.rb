@@ -4,12 +4,9 @@ class Shoe
 
 @@all = []
 
-  def initialize(brands, color, size, material, condition)
+  def initialize(brand)
     @brand = brands
-    @color = color 
-    @size = size 
-    @material = material 
-    @condition = condition 
+  
     
     @@all << self 
   end
