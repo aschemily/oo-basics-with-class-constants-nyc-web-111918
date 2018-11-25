@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
   
-   @brand.fine(:all)
+   @brand.find(:all)
     
   end
 
