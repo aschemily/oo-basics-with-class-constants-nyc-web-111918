@@ -21,7 +21,7 @@ end
 
 def self.brand(brand) 
   self.all.find  do |brand|
-    brand.uniq 
+    brand.values.uniq 
   end 
 end 
   
