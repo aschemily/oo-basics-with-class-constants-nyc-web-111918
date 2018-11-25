@@ -19,8 +19,10 @@ class Shoe
    @@all 
 end
 
-def brand 
-  
+def self.brand(brand) 
+  self.all.find  do |brand|
+    brand.uniq 
+  end 
 end 
   
   
