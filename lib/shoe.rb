@@ -17,6 +17,6 @@ BRANDS = []
   end
 
 def brand
-  BRANDS.find {|brand| brand.uniq!}
+  BRANDS.uniq {|brand| brand.user_id}
 end 
 end #end of class 
