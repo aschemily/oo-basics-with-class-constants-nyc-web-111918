@@ -18,11 +18,7 @@ class Shoe
   def self.all
    @@all 
 end 
-
-def brands
-  brands.select.all do |brand|
-    brand.
-  end 
+  
   
 end 
   
