@@ -17,6 +17,6 @@ BRANDS = []
   end
 
 def brand
-  BRANDS.select
+  BRANDS.select {|brand|}
 end 
 end #end of class 
