@@ -17,6 +17,6 @@ brands = []
   end
 
 def brand
-  if BRANDS ==
+  if brands ==
 end 
 end #end of class 
