@@ -17,6 +17,6 @@ BRANDS = []
   end
 
 def brand
-  BRANDS.uniq
+  BRANDS.uniq {|brand| brand}
 end 
 end #end of class 
