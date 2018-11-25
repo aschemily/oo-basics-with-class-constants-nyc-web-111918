@@ -20,4 +20,4 @@ class Shoe
 end 
   
   
-end
+end #end of class 
