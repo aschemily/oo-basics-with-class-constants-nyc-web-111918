@@ -17,6 +17,10 @@ class Shoe
   
   def self.all
    @@all 
+end
+
+def brand 
+  
 end 
   
   
