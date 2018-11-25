@@ -25,6 +25,7 @@ end
 
 def brands
   brands.select.all do |brand|
+    brand.
   end 
   
 end 
