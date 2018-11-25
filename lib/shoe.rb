@@ -1,11 +1,11 @@
 class Shoe
   attr_accessor :color, :size, :material, :condition
-  attr_reader :brand
+  attr_reader :brands
 
 @@all = []
 
-  def initialize(brand, color, size, material, condition)
-    @brand = brand
+  def initialize(brands, color, size, material, condition)
+    @brand = brands
     @color = color 
     @size = size 
     @material = material 
@@ -21,6 +21,12 @@ class Shoe
   
   def self.all
    @@all 
+end 
+
+def brands
+  brands.select.all do |brand|
+  end 
+  
 end 
   
 end
