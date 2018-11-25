@@ -17,6 +17,6 @@ BRANDS = []
   end
 
 def brand
-  self.BRANDS == BRANDS.uniq!
+  if BRANDS ==
 end 
 end #end of class 
