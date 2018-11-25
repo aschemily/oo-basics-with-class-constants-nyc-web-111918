@@ -17,6 +17,6 @@ BRANDS = []
   end
 
 def brand
-  BRANDS == BRANDS.uniq!
+  self.BRANDS == BRANDS.uniq!
 end 
 end #end of class 
